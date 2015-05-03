@@ -65,13 +65,12 @@ public class MainActivity extends Activity
                         .replace(R.id.container, FirstFragment.newInstance())
                         .commit();
                 break;
-
-//            case 2:
-//                Log.i(null, "ENTROU SEGUNDA!");
-//                fragmentManager.beginTransaction()
-//                        .replace(R.id.container, MainFragment.newInstance())
-//                        .commit();
-//                break;
+            case 2:
+                Log.i(null, "ENTROU 3");
+                fragmentManager.beginTransaction()
+                        .replace(R.id.container, SecondFragment.newInstance())
+                        .commit();
+                break;
         }
     }
 
