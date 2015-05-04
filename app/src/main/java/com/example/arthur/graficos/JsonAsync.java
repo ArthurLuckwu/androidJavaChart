@@ -33,6 +33,7 @@ public class JsonAsync extends AsyncTask<String, Integer, String> {
         StrictMode.setThreadPolicy(policy);
         String response = makeRequest("http://teste.acessetecnologia.com.br:3000/teste/all");
 
+
         return response;
     }
 

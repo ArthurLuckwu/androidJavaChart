@@ -38,7 +38,6 @@ public class FirstFragment extends Fragment {
     private LinearLayout baseProgressBar;
     private BarChart chart;
 
-
     public static FirstFragment newInstance() {
         FirstFragment fragment = new FirstFragment();
         return fragment;
