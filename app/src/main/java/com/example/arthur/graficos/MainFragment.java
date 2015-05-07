@@ -11,6 +11,7 @@ public class MainFragment extends Fragment {
 
         public static MainFragment newInstance() {
             MainFragment fragment = new MainFragment();
+
             return fragment;
         }
 
@@ -20,8 +21,6 @@ public class MainFragment extends Fragment {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.main, container, false);
-
-
 
             return rootView;
         }

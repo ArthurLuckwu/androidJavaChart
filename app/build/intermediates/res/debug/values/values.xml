@@ -202,9 +202,10 @@
     <string name="app_name">Graficos</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="title_section1">Gráfico 1</string>
-    <string name="title_section2">Gráfico 2</string>
-    <string name="title_section3">Gráfico 3</string>
+    <string name="texto">App de exemplos de gráficos</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Fab 1</string>
+    <string name="title_section3">Fab 2</string>
     <!-- From: file:/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

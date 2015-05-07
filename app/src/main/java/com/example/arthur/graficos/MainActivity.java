@@ -12,6 +12,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.Toast;
 
 
 public class MainActivity extends Activity
@@ -22,10 +24,14 @@ public class MainActivity extends Activity
      */
     private NavigationDrawerFragment mNavigationDrawerFragment;
 
+    public boolean flag;
+
     /**
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
     private CharSequence mTitle;
+
+    String[] actions = new String[] {};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,20 +64,59 @@ public class MainActivity extends Activity
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, MainFragment.newInstance())
                         .commit();
+                flag = false;
                 break;
             case 1:
                 Log.i(null, "ENTROU 1");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, FirstFragment.newInstance())
                         .commit();
+                actions = new String[] {
+                        "Linha Prod 1",
+                        "Linha Prod 2",
+                        "Linha Prod 3",
+                };
+                flag = true;
                 break;
             case 2:
                 Log.i(null, "ENTROU 3");
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, SecondFragment.newInstance())
                         .commit();
+                actions = new String[] {
+                        "Linha Prod 1",
+                        "Linha Prod 2",
+                        "Linha Prod 3",
+                        "Linha Prod 4",
+                        "Linha Prod 5",
+                };
+                flag = true;
                 break;
         }
+    }
+
+    public void ativarMenu(){
+
+        Log.i(null, "ATIVAR SPINNER");
+
+        /** Create an array adapter to populate dropdownlist */
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getBaseContext(), android.R.layout.simple_spinner_dropdown_item, actions);
+
+        /** Enabling dropdown list navigation for the action bar */
+        getActionBar().setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+
+
+        /** Defining Navigation listener */
+        ActionBar.OnNavigationListener navigationListener = new ActionBar.OnNavigationListener() {
+            @Override
+            public boolean onNavigationItemSelected(int itemPosition, long itemId) {
+                Toast.makeText(getBaseContext(), "You selected : " + actions[itemPosition], Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        };
+
+        /** Setting dropdown items and item navigation listener for the actionbar */
+        getActionBar().setListNavigationCallbacks(adapter, navigationListener);
     }
 
     public void onSectionAttached(int number) {
@@ -91,8 +136,14 @@ public class MainActivity extends Activity
     public void restoreActionBar() {
         ActionBar actionBar = getActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
-        actionBar.setDisplayShowTitleEnabled(true);
-        actionBar.setTitle(mTitle);
+        actionBar.setDisplayShowTitleEnabled(false);
+//        actionBar.setTitle(mTitle);
+        if(flag == true) {
+            ativarMenu();
+        }
+        Log.i(null, "RESTORE ACTION");
+
+
     }
 
 
@@ -104,6 +155,8 @@ public class MainActivity extends Activity
             // decide what to show in the action bar.
             getMenuInflater().inflate(R.menu.main, menu);
             restoreActionBar();
+            Log.i(null, "onCreateOptionsMenu");
+
             return true;
         }
         return super.onCreateOptionsMenu(menu);

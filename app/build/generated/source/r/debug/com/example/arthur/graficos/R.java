@@ -1521,7 +1521,6 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f090024;
         public static final int action_bar_title=0x7f090023;
         public static final int action_context_bar=0x7f090041;
-        public static final int action_example=0x7f090059;
         public static final int action_menu_divider=0x7f090002;
         public static final int action_menu_presenter=0x7f090003;
         public static final int action_mode_bar=0x7f09003d;
@@ -1676,9 +1675,10 @@ containing a value of this type.
         public static final int app_name=0x7f0b0013;
         public static final int navigation_drawer_close=0x7f0b0014;
         public static final int navigation_drawer_open=0x7f0b0015;
-        public static final int title_section1=0x7f0b0016;
-        public static final int title_section2=0x7f0b0017;
-        public static final int title_section3=0x7f0b0018;
+        public static final int texto=0x7f0b0016;
+        public static final int title_section1=0x7f0b0017;
+        public static final int title_section2=0x7f0b0018;
+        public static final int title_section3=0x7f0b0019;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0c0000;

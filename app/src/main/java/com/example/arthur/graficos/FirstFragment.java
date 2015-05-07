@@ -1,5 +1,6 @@
 package com.example.arthur.graficos;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.Fragment;
 import android.graphics.Color;
@@ -33,6 +34,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
+
+
 public class FirstFragment extends Fragment {
 
     private LinearLayout baseProgressBar;
@@ -40,6 +43,7 @@ public class FirstFragment extends Fragment {
 
     public static FirstFragment newInstance() {
         FirstFragment fragment = new FirstFragment();
+
         return fragment;
     }
 
@@ -58,7 +62,6 @@ public class FirstFragment extends Fragment {
 
         return rootView;
     }
-
 
     @Override
     public void onAttach(Activity activity) {
