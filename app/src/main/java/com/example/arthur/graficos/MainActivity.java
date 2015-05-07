@@ -72,9 +72,9 @@ public class MainActivity extends Activity
                         .replace(R.id.container, FirstFragment.newInstance())
                         .commit();
                 actions = new String[] {
-                        "Linha Prod 1",
-                        "Linha Prod 2",
-                        "Linha Prod 3",
+                        "Planta 1",
+                        "Planta 2",
+                        "Planta 3",
                 };
                 flag = true;
                 break;
@@ -84,11 +84,11 @@ public class MainActivity extends Activity
                         .replace(R.id.container, SecondFragment.newInstance())
                         .commit();
                 actions = new String[] {
-                        "Linha Prod 1",
-                        "Linha Prod 2",
-                        "Linha Prod 3",
-                        "Linha Prod 4",
-                        "Linha Prod 5",
+                        "Planta 1",
+                        "Planta 2",
+                        "Planta 3",
+                        "Planta 4",
+                        "Planta 5",
                 };
                 flag = true;
                 break;
