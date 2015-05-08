@@ -34,6 +34,8 @@ public class MainActivity extends Activity
     private int idPlanta;
     private int idFab;
 
+
+
     String[] actions = new String[] {};
 
     @Override
@@ -76,7 +78,7 @@ public class MainActivity extends Activity
                 setIdPlanta(1);
 
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, ListaLinhaFragment.newInstance())
+                        .replace(R.id.container, ListaLinhaFragment.newInstance(), "ListaLinhaFragment")
                         .commit();
 
                 actions = new String[] {
@@ -92,7 +94,7 @@ public class MainActivity extends Activity
                 setIdPlanta(1);
 
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, ListaLinhaFragment.newInstance())
+                        .replace(R.id.container, ListaLinhaFragment.newInstance(), "ListaLinhaFragment")
                         .commit();
 
                 actions = new String[] {
@@ -161,15 +163,21 @@ public class MainActivity extends Activity
         ActionBar actionBar = getActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
         actionBar.setDisplayShowTitleEnabled(false);
-//        actionBar.setTitle(mTitle);
+        //        actionBar.setTitle(mTitle);
         if(flag == true) {
             ativarMenu();
         }
         Log.i(null, "RESTORE ACTION");
 
-
     }
 
+//    @Override
+//    public void onBackPressed() {
+//
+//
+//        Log.i(null, "VOLTOU");
+//
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

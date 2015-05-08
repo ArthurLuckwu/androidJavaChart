@@ -82,11 +82,13 @@ public class ListaLinhaFragment extends Fragment {
                 if (linhas.get(position).getId() == 1) {
                     fragmentManager.beginTransaction()
                             .replace(R.id.container, FirstFragment.newInstance())
+                            .addToBackStack("ListaLinhaFragment")
                             .commit();
                 }
                 if (linhas.get(position).getId() == 2) {
                     fragmentManager.beginTransaction()
                             .replace(R.id.container, SecondFragment.newInstance())
+                            .addToBackStack("ListaLinhaFragment")
                             .commit();
                 }
             }
@@ -101,6 +103,8 @@ public class ListaLinhaFragment extends Fragment {
         super.onAttach(activity);
         ((MainActivity) activity).onSectionAttached(2);
     }
+
+
 
 
 }
