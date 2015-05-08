@@ -18,13 +18,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Grafico1"
-            android:theme="@style/Theme.AppCompat.Light">
-        </activity>
-        <activity
-            android:name=".Main" >
-        </activity>
     </application>
 
 </manifest>

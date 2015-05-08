@@ -24,12 +24,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.arthur.graficos.Grafico1"
-            android:theme="@style/Theme.AppCompat.Light" >
-        </activity>
-        <activity android:name="com.example.arthur.graficos.Main" >
-        </activity>
     </application>
 
 </manifest>
