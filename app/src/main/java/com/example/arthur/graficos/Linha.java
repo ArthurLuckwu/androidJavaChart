@@ -7,11 +7,15 @@ public class Linha {
     private String descricao;
     private String status;
     private int id;
+    private int planta;
+    private int fabrica;
 
-    public Linha(int id, String descricao, String status) {
+    public Linha(int id, String descricao, String status, int planta, int fabrica) {
         this.id = id;
         this.descricao = descricao;
         this.status = status;
+        this.planta = planta;
+        this.fabrica = fabrica;
     }
 
     public String getDescricao() {
@@ -32,5 +36,21 @@ public class Linha {
 
     public int getId() {
         return id;
+    }
+
+    public int getPlanta() {
+        return planta;
+    }
+
+    public void setPlanta(int planta) {
+        this.planta = planta;
+    }
+
+    public int getFabrica() {
+        return fabrica;
+    }
+
+    public void setFabrica(int fabrica) {
+        this.fabrica = fabrica;
     }
 }

@@ -42,9 +42,13 @@ public class LinhaAdapter extends BaseAdapter {
 
         Linha linha = linhas.get(position);
         TextView descricao = (TextView) view.findViewById(R.id.descricao);
+        TextView planta = (TextView) view.findViewById(R.id.planta);
+        TextView fabrica = (TextView) view.findViewById(R.id.fabrica);
         TextView status = (TextView) view.findViewById(R.id.status);
 
         descricao.setText(linha.getDescricao());
+        planta.setText(Integer.toString(linha.getPlanta()));
+        fabrica.setText(Integer.toString(linha.getFabrica()));
         status.setText(linha.getStatus());
 
         return view;

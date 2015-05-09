@@ -31,6 +31,11 @@ public class MainActivity extends Activity
      */
     private CharSequence mTitle;
 
+    private int idPlanta;
+    private int idFab;
+
+
+
     String[] actions = new String[] {};
 
     @Override
@@ -68,9 +73,14 @@ public class MainActivity extends Activity
                 break;
             case 1:
                 Log.i(null, "ENTROU 1");
+
+                setIdFab(position);
+                setIdPlanta(1);
+
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, FirstFragment.newInstance())
+                        .replace(R.id.container, ListaLinhaFragment.newInstance(), "ListaLinhaFragment")
                         .commit();
+
                 actions = new String[] {
                         "Planta 1",
                         "Planta 2",
@@ -80,9 +90,13 @@ public class MainActivity extends Activity
                 break;
             case 2:
                 Log.i(null, "ENTROU 3");
+                setIdFab(position);
+                setIdPlanta(1);
+
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, SecondFragment.newInstance())
+                        .replace(R.id.container, ListaLinhaFragment.newInstance(), "ListaLinhaFragment")
                         .commit();
+
                 actions = new String[] {
                         "Planta 1",
                         "Planta 2",
@@ -110,7 +124,19 @@ public class MainActivity extends Activity
         ActionBar.OnNavigationListener navigationListener = new ActionBar.OnNavigationListener() {
             @Override
             public boolean onNavigationItemSelected(int itemPosition, long itemId) {
-                Toast.makeText(getBaseContext(), "You selected : " + actions[itemPosition], Toast.LENGTH_SHORT).show();
+                setIdPlanta(itemPosition + 1);
+
+                FragmentManager fragmentManager = getFragmentManager();
+//                fragmentManager.beginTransaction()
+//                        .replace(R.id.container, PlaceholderFragment.newInstance(itemPosition + 1))
+//                        .commit();
+
+                fragmentManager.beginTransaction()
+                        .replace(R.id.container, ListaLinhaFragment.newInstance())
+                        .commit();
+
+
+//                Toast.makeText(getBaseContext(), "idFab : " + getIdPlanta(), Toast.LENGTH_SHORT).show();
                 return false;
             }
         };
@@ -137,15 +163,21 @@ public class MainActivity extends Activity
         ActionBar actionBar = getActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
         actionBar.setDisplayShowTitleEnabled(false);
-//        actionBar.setTitle(mTitle);
+        //        actionBar.setTitle(mTitle);
         if(flag == true) {
             ativarMenu();
         }
         Log.i(null, "RESTORE ACTION");
 
-
     }
 
+//    @Override
+//    public void onBackPressed() {
+//
+//
+//        Log.i(null, "VOLTOU");
+//
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -177,6 +209,22 @@ public class MainActivity extends Activity
         return super.onOptionsItemSelected(item);
     }
 
+    public int getIdPlanta() {
+        return idPlanta;
+    }
+
+    public void setIdPlanta(int idPlanta) {
+        this.idPlanta = idPlanta;
+    }
+
+    public int getIdFab() {
+        return idFab;
+    }
+
+    public void setIdFab(int idFab) {
+        this.idFab = idFab;
+    }
+
     /**
      * A placeholder fragment containing a simple view.
      */
@@ -206,6 +254,7 @@ public class MainActivity extends Activity
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+
             return rootView;
         }
 
