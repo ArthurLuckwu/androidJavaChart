@@ -61,19 +61,15 @@ public class MainActivity extends Activity
                 .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
                 .commit();
 
-        Log.i(null, "--> " + position);
-
         switch (position) {
             case 0:
-                Log.i(null, "ENTROU 0");
+                setNivel(1);
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, MainFragment.newInstance())
                         .commit();
                 flag = false;
                 break;
             case 1:
-                Log.i(null, "ENTROU 1");
-
                 setIdFab(position);
                 setIdPlanta(1);
                 setNivel(1);
@@ -90,7 +86,6 @@ public class MainActivity extends Activity
                 flag = true;
                 break;
             case 2:
-                Log.i(null, "ENTROU 3");
                 setIdFab(position);
                 setIdPlanta(1);
                 setNivel(1);
@@ -112,9 +107,6 @@ public class MainActivity extends Activity
     }
 
     public void ativarMenu(){
-
-        Log.i(null, "ATIVAR SPINNER");
-
         /** Create an array adapter to populate dropdownlist */
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getBaseContext(), android.R.layout.simple_spinner_dropdown_item, actions);
 
@@ -166,14 +158,11 @@ public class MainActivity extends Activity
         if(flag == true) {
             ativarMenu();
         }
-        Log.i(null, "RESTORE ACTION");
-
     }
 
     @Override
     public void onBackPressed() {
         int nivel = getNivel();
-        Log.i(null, "Nivel -> "+ getNivel());
         if(nivel > 1){
             setNivel(1);
             FragmentManager fragmentManager = getFragmentManager();
@@ -184,10 +173,6 @@ public class MainActivity extends Activity
         else{
             finish();
         }
-
-
-
-
     }
 
     @Override

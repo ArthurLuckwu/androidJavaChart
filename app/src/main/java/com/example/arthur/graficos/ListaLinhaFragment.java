@@ -4,25 +4,17 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-
-import com.github.mikephil.charting.charts.BarChart;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
 public class ListaLinhaFragment extends Fragment {
-
-    private LinearLayout baseProgressBar;
-    private BarChart chart;
-
     private List<Linha> linhas;
 
     public static ListaLinhaFragment newInstance() {
@@ -40,13 +32,12 @@ public class ListaLinhaFragment extends Fragment {
         int idFab = ((MainActivity) getActivity()).getIdFab();
         int idPlanta = ((MainActivity) getActivity()).getIdPlanta();
 
-        Log.i(null, "idFAB NO FRAGMENT ->" + String.valueOf(((MainActivity) getActivity()).getIdFab()));
+//        Log.i(null, "idFAB NO FRAGMENT ->" + String.valueOf(((MainActivity) getActivity()).getIdFab()));
 
         linhas = new ArrayList<Linha>();
         linhas.add(new Linha(1, "Linha 1", "Status1", idPlanta, idFab));
         linhas.add(new Linha(2, "Linha 2", "Status2", idPlanta, idFab));
 
-//        linhas.add(new Linha(3, "Linha 3", "Status3"));
 
         LinhaAdapter adapter = new LinhaAdapter(getActivity(), linhas);
 
@@ -89,8 +80,4 @@ public class ListaLinhaFragment extends Fragment {
         super.onAttach(activity);
         ((MainActivity) activity).onSectionAttached(2);
     }
-
-
-
-
 }

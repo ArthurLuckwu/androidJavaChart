@@ -1526,12 +1526,13 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09003d;
         public static final int action_mode_bar_stub=0x7f09003c;
         public static final int action_mode_close_button=0x7f090025;
-        public static final int action_settings=0x7f09005e;
+        public static final int action_settings=0x7f090061;
         public static final int activity_chooser_view_content=0x7f090026;
         public static final int alertTitle=0x7f090030;
         public static final int always=0x7f090016;
         public static final int baseProgressBar=0x7f090055;
         public static final int beginning=0x7f090013;
+        public static final int btLogin=0x7f09005f;
         public static final int buttonPanel=0x7f090036;
         public static final int chart=0x7f090054;
         public static final int checkbox=0x7f090038;
@@ -1561,6 +1562,7 @@ containing a value of this type.
         public static final int listMode=0x7f090009;
         public static final int list_item=0x7f09002a;
         public static final int lista_linhas=0x7f09005c;
+        public static final int login=0x7f09005d;
         public static final int middle=0x7f090015;
         public static final int multiply=0x7f09001e;
         public static final int navigation_drawer=0x7f090051;
@@ -1568,6 +1570,7 @@ containing a value of this type.
         public static final int none=0x7f09000e;
         public static final int normal=0x7f09000a;
         public static final int parentPanel=0x7f09002d;
+        public static final int password=0x7f09005e;
         public static final int piechart=0x7f090057;
         public static final int planta=0x7f090059;
         public static final int progress_circular=0x7f090005;
@@ -1600,7 +1603,7 @@ containing a value of this type.
         public static final int submit_area=0x7f09004b;
         public static final int tabMode=0x7f09000b;
         public static final int textSpacerNoButtons=0x7f090033;
-        public static final int texto=0x7f09005d;
+        public static final int texto=0x7f090060;
         public static final int title=0x7f09002c;
         public static final int title_template=0x7f09002f;
         public static final int topPanel=0x7f09002e;
@@ -1647,11 +1650,12 @@ containing a value of this type.
         public static final int grafico2=0x7f04001d;
         public static final int linha=0x7f04001e;
         public static final int listalinhas=0x7f04001f;
-        public static final int main=0x7f040020;
-        public static final int select_dialog_item_material=0x7f040021;
-        public static final int select_dialog_multichoice_material=0x7f040022;
-        public static final int select_dialog_singlechoice_material=0x7f040023;
-        public static final int support_simple_spinner_dropdown_item=0x7f040024;
+        public static final int login=0x7f040020;
+        public static final int main=0x7f040021;
+        public static final int select_dialog_item_material=0x7f040022;
+        public static final int select_dialog_multichoice_material=0x7f040023;
+        public static final int select_dialog_singlechoice_material=0x7f040024;
+        public static final int support_simple_spinner_dropdown_item=0x7f040025;
     }
     public static final class menu {
         public static final int global=0x7f0d0000;
