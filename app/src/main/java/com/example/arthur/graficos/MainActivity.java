@@ -13,7 +13,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.Toast;
 
 
 public class MainActivity extends Activity
@@ -33,6 +32,7 @@ public class MainActivity extends Activity
 
     private int idPlanta;
     private int idFab;
+    private int nivel;
 
 
 
@@ -76,6 +76,7 @@ public class MainActivity extends Activity
 
                 setIdFab(position);
                 setIdPlanta(1);
+                setNivel(1);
 
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, ListaLinhaFragment.newInstance(), "ListaLinhaFragment")
@@ -92,6 +93,7 @@ public class MainActivity extends Activity
                 Log.i(null, "ENTROU 3");
                 setIdFab(position);
                 setIdPlanta(1);
+                setNivel(1);
 
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, ListaLinhaFragment.newInstance(), "ListaLinhaFragment")
@@ -126,15 +128,12 @@ public class MainActivity extends Activity
             public boolean onNavigationItemSelected(int itemPosition, long itemId) {
                 setIdPlanta(itemPosition + 1);
 
-                FragmentManager fragmentManager = getFragmentManager();
-//                fragmentManager.beginTransaction()
-//                        .replace(R.id.container, PlaceholderFragment.newInstance(itemPosition + 1))
-//                        .commit();
+                setNivel(1);
 
+                FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction()
                         .replace(R.id.container, ListaLinhaFragment.newInstance())
                         .commit();
-
 
 //                Toast.makeText(getBaseContext(), "idFab : " + getIdPlanta(), Toast.LENGTH_SHORT).show();
                 return false;
@@ -171,13 +170,25 @@ public class MainActivity extends Activity
 
     }
 
-//    @Override
-//    public void onBackPressed() {
-//
-//
-//        Log.i(null, "VOLTOU");
-//
-//    }
+    @Override
+    public void onBackPressed() {
+        int nivel = getNivel();
+        Log.i(null, "Nivel -> "+ getNivel());
+        if(nivel > 1){
+            setNivel(1);
+            FragmentManager fragmentManager = getFragmentManager();
+            fragmentManager.beginTransaction()
+                    .replace(R.id.container, ListaLinhaFragment.newInstance())
+                    .commit();
+        }
+        else{
+            finish();
+        }
+
+
+
+
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -223,6 +234,14 @@ public class MainActivity extends Activity
 
     public void setIdFab(int idFab) {
         this.idFab = idFab;
+    }
+
+    public int getNivel() {
+        return nivel;
+    }
+
+    public void setNivel(int nivel) {
+        this.nivel = nivel;
     }
 
     /**
