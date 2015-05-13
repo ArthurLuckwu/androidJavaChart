@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.arthur.graficos" >
+    package="com.project.prototype" >
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -9,7 +9,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity"
+        <activity android:name="com.project.prototype.LoginActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +18,7 @@
 
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.project.prototype.MainActivity"
             android:label="@string/app_name" >
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->

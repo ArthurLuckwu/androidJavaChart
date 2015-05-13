@@ -197,15 +197,15 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <!-- From: file:/home/arthur/AndroidStudioProjects/Graficos/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="action_example">Example action</string>
-    <string name="action_settings">Settings</string>
-    <string name="app_name">Graficos</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="texto">App de exemplos de gráficos</string>
-    <string name="title_section1">Home</string>
-    <string name="title_section2">Fab 1</string>
-    <string name="title_section3">Fab 2</string>
+    <string name="action.example">Example action</string>
+    <string name="action.settings">Settings</string>
+    <string name="app_name">Graphics</string>
+    <string name="navigation_drawer.close">Close navigation drawer</string>
+    <string name="navigation_drawer.open">Open navigation drawer</string>
+    <string name="texto">App of graphic examples</string>
+    <string name="title.drawer.section1">Home</string>
+    <string name="title.drawer.section2">Fab 1</string>
+    <string name="title.drawer.section3">Fab 2</string>
     <!-- From: file:/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
