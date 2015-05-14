@@ -20,13 +20,15 @@ android {
     }
 }
 
-repositories{
+repositories {
     maven { url "https://jitpack.io" }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:support-v4:22.+'
+    compile 'com.android.support:support-v4:22.1.1'
     compile 'com.github.PhilJay:MPAndroidChart:v2.0.9'
     compile 'com.android.support:appcompat-v7:22.1.1'
+    compile 'com.google.android.gms:play-services:7.3.0'
+    compile project(path: ':backend', configuration: 'android-endpoints')
 }
