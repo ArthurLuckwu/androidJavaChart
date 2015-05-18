@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.arthur.myapplication.backend.registration.Registration;
@@ -51,6 +52,9 @@ public class MainActivity extends Activity
     private int idFab;
     private int nivel;
 
+    TextView textoInicial;
+
+
     String[] actions = new String[] {};
 
     @Override
@@ -59,6 +63,8 @@ public class MainActivity extends Activity
         setContentView(com.project.prototype.R.layout.activity_main);
 
         new GcmRegistrationAsyncTask(this).execute();
+
+        textoInicial = (TextView) findViewById(R.id.texto);
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(com.project.prototype.R.id.navigation_drawer);

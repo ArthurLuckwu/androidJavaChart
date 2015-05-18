@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/home/arthur/Downloads/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-56bee528866339ae881034d7093308006e82ac4e.jar" />
+    </item>
+    <item
         jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.0.2"
@@ -58,6 +65,13 @@
         <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-e5cd942b2499a5944ebd0c67ccc0f8e1c561620a.jar" />
     </item>
     <item
+        jar="/home/arthur/AndroidStudioProjects/Graficos/app/libs/robotium-solo-5.3.1.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="e6e664ab1b59d2504c3529f128747c13487f96ca">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/robotium-solo-5.3.1-fbbfcedae44e61ed78743a2f15ff931561899fb5.jar" />
+    </item>
+    <item
         jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.0.2"
@@ -93,11 +107,11 @@
         <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-387c736f31d75de4082e5b30f5c2641aef5b9ef3.jar" />
     </item>
     <item
-        jar="/home/arthur/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.jayway.android.robotium/robotium-solo/5.3.1/e6e664ab1b59d2504c3529f128747c13487f96ca/robotium-solo-5.3.1.jar"
         jumboMode="false"
         revision="21.0.2"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-696002db50393f713df89bdb3659e9f64e86c272.jar" />
+        sha1="e6e664ab1b59d2504c3529f128747c13487f96ca">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/androidTest/debug/robotium-solo-5.3.1-05abcfabab1a5d15efa46e721316b5e5c24eabac.jar" />
     </item>
     <item
         jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
