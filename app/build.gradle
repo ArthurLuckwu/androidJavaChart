@@ -4,7 +4,7 @@ android {
     compileSdkVersion 21
     buildToolsVersion "21.0.2"
     defaultConfig {
-        applicationId 'com.project.prototype'
+        applicationId 'com.sanmina.moblineprototype'
         minSdkVersion 21
         targetSdkVersion 21
         versionCode 1
@@ -39,8 +39,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.1.1'
     compile 'com.google.android.gms:play-services:7.3.0'
     compile project(path: ':backend', configuration: 'android-endpoints')
-
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     testCompile 'org.easytesting:fest:1.0.16'
     testCompile 'com.squareup:fest-android:1.0.8'
@@ -48,6 +47,6 @@ dependencies {
         exclude group: 'commons-logging', module: 'commons-logging'
         exclude group: 'org.apache.httpcomponents', module: 'httpclient'
     }
-//    apply plugin: 'org.robolectric'
+    //    apply plugin: 'org.robolectric'
     androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.3.1'
 }

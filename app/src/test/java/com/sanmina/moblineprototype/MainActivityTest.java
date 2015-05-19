@@ -1,13 +1,9 @@
-package com.project.prototype;
+package com.sanmina.moblineprototype;
 
 import android.test.ActivityInstrumentationTestCase2;
 import android.widget.TextView;
 
 import com.robotium.solo.Solo;
-import com.project.prototype.MainActivity;
-
-import junit.framework.Assert;
-import junit.framework.TestCase;
 
 public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActivity> {
     // Solo Robotium helper object

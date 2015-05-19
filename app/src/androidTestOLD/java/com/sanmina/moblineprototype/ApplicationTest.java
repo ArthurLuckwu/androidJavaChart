@@ -1,4 +1,4 @@
-package com.project.prototype;
+package com.sanmina.moblineprototype;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

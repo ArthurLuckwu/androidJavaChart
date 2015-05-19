@@ -1,4 +1,4 @@
-package com.project.prototype.network;
+package com.sanmina.moblineprototype.network;
 
 import android.app.Activity;
 import android.content.ComponentName;

@@ -1,4 +1,4 @@
-package com.project.prototype.fragments;
+package com.sanmina.moblineprototype.fragments;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -16,9 +16,9 @@ import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
-import com.project.prototype.MainActivity;
-import com.project.prototype.R;
-import com.project.prototype.network.Json;
+import com.sanmina.moblineprototype.MainActivity;
+import com.sanmina.moblineprototype.R;
+import com.sanmina.moblineprototype.network.Json;
 
 import org.json.JSONArray;
 import org.json.JSONException;

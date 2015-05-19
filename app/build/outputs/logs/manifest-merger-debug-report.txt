@@ -133,7 +133,7 @@ MERGED from com.android.support:support-v4:22.1.1:22:5
 		ADDED from AndroidManifest.xml:18:9
 	android:theme
 		ADDED from AndroidManifest.xml:20:9
-activity#com.project.prototype.LoginActivity
+activity#com.sanmina.moblineprototype.LoginActivity
 ADDED from AndroidManifest.xml:21:9
 	android:label
 		ADDED from AndroidManifest.xml:23:13
@@ -149,13 +149,13 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:27:17
 	android:name
 		ADDED from AndroidManifest.xml:27:27
-activity#com.project.prototype.MainActivity
+activity#com.sanmina.moblineprototype.MainActivity
 ADDED from AndroidManifest.xml:30:9
 	android:label
 		ADDED from AndroidManifest.xml:32:13
 	android:name
 		ADDED from AndroidManifest.xml:31:13
-receiver#com.project.prototype.network.GcmBroadcastReceiver
+receiver#com.sanmina.moblineprototype.network.GcmBroadcastReceiver
 ADDED from AndroidManifest.xml:39:9
 	android:permission
 		ADDED from AndroidManifest.xml:41:13
@@ -171,7 +171,7 @@ category#MY_PACKAGE
 ADDED from AndroidManifest.xml:44:17
 	android:name
 		ADDED from AndroidManifest.xml:44:27
-service#com.project.prototype.network.GcmIntentService
+service#com.sanmina.moblineprototype.network.GcmIntentService
 ADDED from AndroidManifest.xml:47:9
 	android:name
 		ADDED from AndroidManifest.xml:47:18

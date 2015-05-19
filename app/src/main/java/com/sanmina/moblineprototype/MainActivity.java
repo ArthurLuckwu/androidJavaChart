@@ -1,4 +1,4 @@
-package com.project.prototype;
+package com.sanmina.moblineprototype;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -24,9 +24,9 @@ import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
 import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
-import com.project.prototype.fragments.FragmentHome;
-import com.project.prototype.fragments.FragmentListaLinha;
-import com.project.prototype.fragments.NavigationDrawerFragment;
+import com.sanmina.moblineprototype.fragments.FragmentHome;
+import com.sanmina.moblineprototype.fragments.FragmentListaLinha;
+import com.sanmina.moblineprototype.fragments.NavigationDrawerFragment;
 
 import java.io.IOException;
 import java.util.logging.Level;
@@ -60,14 +60,14 @@ public class MainActivity extends Activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(com.project.prototype.R.layout.activity_main);
+        setContentView(com.sanmina.moblineprototype.R.layout.activity_main);
 
         new GcmRegistrationAsyncTask(this).execute();
 
         textoInicial = (TextView) findViewById(R.id.texto);
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
-                getFragmentManager().findFragmentById(com.project.prototype.R.id.navigation_drawer);
+                getFragmentManager().findFragmentById(com.sanmina.moblineprototype.R.id.navigation_drawer);
         mTitle = getTitle();
 
         // Set up the drawer.

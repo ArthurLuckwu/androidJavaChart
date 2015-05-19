@@ -1,4 +1,4 @@
-package com.project.prototype;
+package com.sanmina.moblineprototype;
 
 import android.widget.TextView;
 
@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;
 import org.robolectric.RobolectricGradleTestRunner;
 import org.robolectric.annotation.Config;
-import org.w3c.dom.Text;
 
 import static org.fest.assertions.api.ANDROID.assertThat;
 import static org.hamcrest.MatcherAssert.assertThat;

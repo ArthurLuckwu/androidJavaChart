@@ -1,4 +1,4 @@
-package com.project.prototype.fragments;
+package com.sanmina.moblineprototype.fragments;
 
 
 import android.app.Activity;
@@ -21,7 +21,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.project.prototype.R;
+import com.sanmina.moblineprototype.R;
 
 /**
  * Fragment used for managing interactions for and presentation of a navigation drawer.

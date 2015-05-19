@@ -1,4 +1,4 @@
-package com.project.prototype.model;
+package com.sanmina.moblineprototype.model;
 
 public class Linha {
     private String descricao;

@@ -1,4 +1,4 @@
-package com.project.prototype.fragments;
+package com.sanmina.moblineprototype.fragments;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -14,9 +14,9 @@ import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.utils.ColorTemplate;
-import com.project.prototype.MainActivity;
-import com.project.prototype.R;
-import com.project.prototype.network.Json;
+import com.sanmina.moblineprototype.MainActivity;
+import com.sanmina.moblineprototype.R;
+import com.sanmina.moblineprototype.network.Json;
 import org.json.JSONArray;
 import org.json.JSONException;
 import java.util.ArrayList;

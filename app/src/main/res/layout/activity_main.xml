@@ -28,7 +28,7 @@
         android:layout_width="@dimen/navigation_drawer_width"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:name="com.project.prototype.fragments.NavigationDrawerFragment"
+        android:name="com.sanmina.moblineprototype.fragments.NavigationDrawerFragment"
         tools:layout="@layout/fragment_navigation_drawer"
         />
 

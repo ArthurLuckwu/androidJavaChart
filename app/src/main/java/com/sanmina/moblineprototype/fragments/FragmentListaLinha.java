@@ -1,4 +1,4 @@
-package com.project.prototype.fragments;
+package com.sanmina.moblineprototype.fragments;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.project.prototype.MainActivity;
-import com.project.prototype.R;
-import com.project.prototype.model.Linha;
-import com.project.prototype.views.adapters.AdapterLinha;
+import com.sanmina.moblineprototype.MainActivity;
+import com.sanmina.moblineprototype.R;
+import com.sanmina.moblineprototype.model.Linha;
+import com.sanmina.moblineprototype.views.adapters.AdapterLinha;
 
 import java.util.ArrayList;
 import java.util.List;

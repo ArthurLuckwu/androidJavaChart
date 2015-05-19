@@ -1,4 +1,4 @@
-package com.project.prototype.fragments;
+package com.sanmina.moblineprototype.fragments;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -7,8 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.project.prototype.MainActivity;
-import com.project.prototype.R;
+import com.sanmina.moblineprototype.MainActivity;
+import com.sanmina.moblineprototype.R;
 
 
 public class FragmentHome extends Fragment {

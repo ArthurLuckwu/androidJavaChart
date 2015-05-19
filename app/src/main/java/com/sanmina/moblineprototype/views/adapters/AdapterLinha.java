@@ -1,4 +1,4 @@
-package com.project.prototype.views.adapters;
+package com.sanmina.moblineprototype.views.adapters;
 
 import android.app.Activity;
 import android.view.View;
@@ -6,8 +6,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.project.prototype.model.Linha;
-import com.project.prototype.R;
+import com.sanmina.moblineprototype.model.Linha;
+import com.sanmina.moblineprototype.R;
 
 import java.util.List;
 

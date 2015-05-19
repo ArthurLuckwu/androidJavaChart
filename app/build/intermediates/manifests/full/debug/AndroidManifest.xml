@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.project.prototype"
+    package="com.sanmina.moblineprototype"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -25,7 +25,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.project.prototype.LoginActivity"
+            android:name="com.sanmina.moblineprototype.LoginActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,7 +34,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.project.prototype.MainActivity"
+            android:name="com.sanmina.moblineprototype.MainActivity"
             android:label="@string/app_name" >
 
             <!-- <intent-filter> -->
@@ -44,7 +44,7 @@
         </activity>
 
         <receiver
-            android:name="com.project.prototype.network.GcmBroadcastReceiver"
+            android:name="com.sanmina.moblineprototype.network.GcmBroadcastReceiver"
             android:permission="com.google.android.c2dm.permission.SEND" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
@@ -53,7 +53,7 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="com.project.prototype.network.GcmIntentService" />
+        <service android:name="com.sanmina.moblineprototype.network.GcmIntentService" />
 
         <meta-data
             android:name="com.google.android.gms.version"
