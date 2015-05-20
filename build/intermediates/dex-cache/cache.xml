@@ -2,39 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/arthur/Downloads/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-56bee528866339ae881034d7093308006e82ac4e.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-9f1a822a2a0f9d89854d382c80196eb9eab76adc.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-c2ee768cc4519c29cbea940a6473e3ee6e8e8fdd.jar" />
-    </item>
-    <item
         jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.0.2"
         sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
         <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-0f5795e56b4eb3865c1e3694f3aa8cec83e855ab.jar" />
-    </item>
-    <item
-        jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3-9f1f340dbfc06b63b4700320f32fc1dc30ed627b.jar" />
     </item>
     <item
         jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.19.0/81dbf9795d387d5e80e55346582d5f2fb81a42eb/google-http-client-jackson2-1.19.0.jar"
@@ -58,32 +30,11 @@
         <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-d9e542844eabbf3d925446c1903893ed89e7029c.jar" />
     </item>
     <item
-        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-2e1fa9f4d9fb0c30cadd510e50dea02c30527430.jar" />
-    </item>
-    <item
         jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.0.2"
         sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
         <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-9a07dc43b74e256b40410e1cce952205b292dca9.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-9ceac8f6cab05492add3612b9a4fd2981ca05cb7.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-e5cd942b2499a5944ebd0c67ccc0f8e1c561620a.jar" />
     </item>
     <item
         jar="/home/arthur/AndroidStudioProjects/Graficos/app/libs/robotium-solo-5.3.1.jar"
@@ -93,25 +44,11 @@
         <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/robotium-solo-5.3.1-fbbfcedae44e61ed78743a2f15ff931561899fb5.jar" />
     </item>
     <item
-        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
-        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-ef527be0a1ca781408973dcb6db7214f9ab0c141.jar" />
-    </item>
-    <item
         jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.0.2"
         sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
         <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-ffa0c0bdfdcce54c4e1393b487ba544fd9647f06.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
-        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-43d18cbace7a78861dbaa42bc2fbdb272ef00c36.jar" />
     </item>
     <item
         jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/classes.jar"
@@ -128,11 +65,11 @@
         <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-387c736f31d75de4082e5b30f5c2641aef5b9ef3.jar" />
     </item>
     <item
-        jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.19.0/e3f11020c2c812112803d252d1392872d3f619c8/google-http-client-android-1.19.0.jar"
+        jar="/home/arthur/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="21.0.2"
-        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/google-http-client-android-1.19.0-7f8030e01d5a681659c210a0ea052e95b4e72a3d.jar" />
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-696002db50393f713df89bdb3659e9f64e86c272.jar" />
     </item>
     <item
         jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.3.0/classes.jar"
@@ -149,25 +86,11 @@
         <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-dff28feb81e699009d9feb3467d1fbb5c9ebc942.jar" />
     </item>
     <item
-        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-c448e25f7d2ed90d283d94cd994a50b4a11ad6db.jar" />
-    </item>
-    <item
         jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
         jumboMode="false"
         revision="21.0.2"
         sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
         <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-ee394a6073b735a3ad2c8e9458db888d63b08ab1.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-05848e5b41e4b45df1294964c751311e3d5d3dc3.jar" />
     </item>
     <item
         jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.0.9/6df6035161f0263100c3a70626bccbfd0bb545b7/MPAndroidChart-v2.0.9.jar"
@@ -184,13 +107,6 @@
         <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/backend-android-endpoints-33c815a7ee186e74ca64215615b6952d391d7834.jar" />
     </item>
     <item
-        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-463db4d31dddcd9c6f2fe77946fbc4b4f6590c7d.jar" />
-    </item>
-    <item
         jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.0.2"
@@ -203,6 +119,209 @@
         revision="21.0.2"
         sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
         <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-97caa0a0bf8b85dff29139b0dedfe00255c00a1e.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-d2835dbbbbd13c8e563539f2a4610c7ebd29ebee.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-0978581377b99e5e22e3a5d1c169cef4ce5fff59.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-a340e8aebe66aa9f500296a90e7a3ddcafc3cd75.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-5fa0c54734c7846e256dce392a98bb8cc3eb072e.jar" />
+    </item>
+    <item
+        jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.19.0/ba2aafb867f6af469f936ae76426cf0a280094bd/google-api-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="ba2aafb867f6af469f936ae76426cf0a280094bd">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/google-api-client-android-1.19.0-32ea0dbdce9544ba71a73c114bfc9fb0a2bf62fc.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-ab74bde37d8e724ce3f7fbac67ed3a5802cd8b4c.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-cb43ee4fe8529a6e49ab0bb2b7222248fafcdd8d.jar" />
+    </item>
+    <item
+        jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.19.0/d473a8962e14a707a3716637e4898bb2dd9643f2/google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.19.0-382498c64ea3c4ffdf868e0b00d4dc95aa95d34e.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/backend/build/libs/backend-android-endpoints.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="3ae72b92728c1f01a78d52a05e5f11ccf68d1aa4">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/backend-android-endpoints-632a28afdd8ffd072928dd35aed5a09703e62dce.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-6f7cd3bf38833e3e56445007582f948022da5d3a.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-77265200e4cb09fbafa7ae01d68c84ceee04cb3b.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-e3158c8f0be8d4b2e1be89f5edcdf7517a568a09.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-e1ebf394073b0d0b4fd74fe842c16b5d3a0bc9ac.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-648d34fae86c3372b7fad1cb4e91939de6d5af34.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-16fc47ce13d5d4f7f8ca09eaa0d7213f3f02cda7.jar" />
+    </item>
+    <item
+        jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9-ef2a9e1cd17bdf46c18e4f5154bc840f6a56ed25.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-9f1a822a2a0f9d89854d382c80196eb9eab76adc.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-c2ee768cc4519c29cbea940a6473e3ee6e8e8fdd.jar" />
+    </item>
+    <item
+        jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3-9f1f340dbfc06b63b4700320f32fc1dc30ed627b.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-2e1fa9f4d9fb0c30cadd510e50dea02c30527430.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-9ceac8f6cab05492add3612b9a4fd2981ca05cb7.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-e5cd942b2499a5944ebd0c67ccc0f8e1c561620a.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-ef527be0a1ca781408973dcb6db7214f9ab0c141.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-43d18cbace7a78861dbaa42bc2fbdb272ef00c36.jar" />
+    </item>
+    <item
+        jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.19.0/e3f11020c2c812112803d252d1392872d3f619c8/google-http-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/google-http-client-android-1.19.0-7f8030e01d5a681659c210a0ea052e95b4e72a3d.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-c448e25f7d2ed90d283d94cd994a50b4a11ad6db.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-05848e5b41e4b45df1294964c751311e3d5d3dc3.jar" />
+    </item>
+    <item
+        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-463db4d31dddcd9c6f2fe77946fbc4b4f6590c7d.jar" />
+    </item>
+    <item
+        jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.jayway.android.robotium/robotium-solo/5.2.1/56ab8d87d966a067ee3795ee137fbd51b6581ec9/robotium-solo-5.2.1.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="56ab8d87d966a067ee3795ee137fbd51b6581ec9">
+        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/robotium-solo-5.2.1-765f87bc22ab3d7797e3e056f10ac0adad8754f6.jar" />
     </item>
     <item
         jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
@@ -233,53 +352,11 @@
         <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-580b347ebafca1c13de1a9a243486d83216924fb.jar" />
     </item>
     <item
-        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
-        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-d2835dbbbbd13c8e563539f2a4610c7ebd29ebee.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
-        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-0978581377b99e5e22e3a5d1c169cef4ce5fff59.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
-        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-a340e8aebe66aa9f500296a90e7a3ddcafc3cd75.jar" />
-    </item>
-    <item
         jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.0.2"
         sha1="5ea948d825957be6c4358c48422bee60eef2d487">
         <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-07a3b8482a14b00b1df1fdb3cadc62a60f0c0365.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-5fa0c54734c7846e256dce392a98bb8cc3eb072e.jar" />
-    </item>
-    <item
-        jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.19.0/ba2aafb867f6af469f936ae76426cf0a280094bd/google-api-client-android-1.19.0.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="ba2aafb867f6af469f936ae76426cf0a280094bd">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/google-api-client-android-1.19.0-32ea0dbdce9544ba71a73c114bfc9fb0a2bf62fc.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="565a01f90f1529f73362707c4c185d0623a68782">
-        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-ab74bde37d8e724ce3f7fbac67ed3a5802cd8b4c.jar" />
     </item>
     <item
         jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.3.0/classes.jar"
@@ -294,20 +371,6 @@
         revision="21.0.2"
         sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
         <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/google-http-client-1.19.0-03475be136ebbbcb5fa7273c995dae03eb7f2ab5.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
-        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-cb43ee4fe8529a6e49ab0bb2b7222248fafcdd8d.jar" />
-    </item>
-    <item
-        jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.jayway.android.robotium/robotium-solo/5.3.1/e6e664ab1b59d2504c3529f128747c13487f96ca/robotium-solo-5.3.1.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="e6e664ab1b59d2504c3529f128747c13487f96ca">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/androidTest/debug/robotium-solo-5.3.1-05abcfabab1a5d15efa46e721316b5e5c24eabac.jar" />
     </item>
     <item
         jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
@@ -345,34 +408,6 @@
         <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/google-api-client-1.19.0-0423b584e722263ed27cc61c72a4ec1d5f6eef99.jar" />
     </item>
     <item
-        jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.19.0/d473a8962e14a707a3716637e4898bb2dd9643f2/google-oauth-client-1.19.0.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.19.0-382498c64ea3c4ffdf868e0b00d4dc95aa95d34e.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/backend/build/libs/backend-android-endpoints.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="82bf77454aa82c9daa35245354647551230cbfc6">
-        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/backend-android-endpoints-632a28afdd8ffd072928dd35aed5a09703e62dce.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-6f7cd3bf38833e3e56445007582f948022da5d3a.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-77265200e4cb09fbafa7ae01d68c84ceee04cb3b.jar" />
-    </item>
-    <item
         jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.0.9/6df6035161f0263100c3a70626bccbfd0bb545b7/MPAndroidChart-v2.0.9.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -401,27 +436,6 @@
         <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-eaee187e26ada2951cff20372d07405eb7fb7a33.jar" />
     </item>
     <item
-        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/libs/robotium-solo-5.3.1.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="e6e664ab1b59d2504c3529f128747c13487f96ca">
-        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/robotium-solo-5.3.1-1849e5f8010e54668a387ad1afc8396075dfcf5a.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
-        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-e3158c8f0be8d4b2e1be89f5edcdf7517a568a09.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-e1ebf394073b0d0b4fd74fe842c16b5d3a0bc9ac.jar" />
-    </item>
-    <item
         jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.0.2"
@@ -429,32 +443,11 @@
         <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-7933eda1ebd6bf758b7c472446f7fae35a417c09.jar" />
     </item>
     <item
-        jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-648d34fae86c3372b7fad1cb4e91939de6d5af34.jar" />
-    </item>
-    <item
-        jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
-        <dex dex="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/pre-dexed/debug/classes-16fc47ce13d5d4f7f8ca09eaa0d7213f3f02cda7.jar" />
-    </item>
-    <item
         jar="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/classes.jar"
         jumboMode="false"
         revision="21.0.2"
         sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
         <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/classes-8a5358d16d4ad368b1896f3988a1d80c32e02d83.jar" />
-    </item>
-    <item
-        jar="/home/arthur/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
-        jumboMode="false"
-        revision="21.0.2"
-        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
-        <dex dex="/home/arthur/AndroidStudioProjects/Graficos/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9-ef2a9e1cd17bdf46c18e4f5154bc840f6a56ed25.jar" />
     </item>
     <item
         jar="/home/arthur/AndroidStudioProjects/Mobline-Prototype/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/classes.jar"

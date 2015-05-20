@@ -9,6 +9,9 @@ android {
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
+//        testPackageName "com.sanmina.moblineprototype.test"
+        testApplicationId 'com.sanmina.moblineprototype.test'
+        testInstrumentationRunner 'android.test.InstrumentationTestRunner'
     }
     buildTypes {
         release {
@@ -18,14 +21,14 @@ android {
     }
     productFlavors {
     }
-//    testOptions {
-//        unitTests.returnDefaultValues = true
-//    }
-//    sourceSets {
-//        androidTest {
-//            java.srcDirs = ['test/java']
-//        }
-//    }
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+    sourceSets {
+        androidTest {
+            java.srcDirs = ['test/java']
+        }
+    }
 }
 
 repositories {
@@ -41,6 +44,7 @@ dependencies {
     compile project(path: ':backend', configuration: 'android-endpoints')
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.9.5'
     testCompile 'org.easytesting:fest:1.0.16'
     testCompile 'com.squareup:fest-android:1.0.8'
     testCompile('org.robolectric:robolectric:3.0-rc2') {
@@ -48,5 +52,7 @@ dependencies {
         exclude group: 'org.apache.httpcomponents', module: 'httpclient'
     }
     //    apply plugin: 'org.robolectric'
-    androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.3.1'
+//    androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.3.1'
+    compile 'com.jayway.android.robotium:robotium-solo:5.2.1'
+
 }
