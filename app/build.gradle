@@ -10,8 +10,8 @@ android {
         versionCode 1
         versionName "1.0"
 //        testPackageName "com.sanmina.moblineprototype.test"
-        testApplicationId 'com.sanmina.moblineprototype.test'
-        testInstrumentationRunner 'android.test.InstrumentationTestRunner'
+//        testApplicationId 'com.sanmina.moblineprototype.test'
+//        testInstrumentationRunner 'android.test.InstrumentationTestRunner'
     }
     buildTypes {
         release {
@@ -19,16 +19,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    productFlavors {
-    }
+//    productFlavors {
+//    }
     testOptions {
         unitTests.returnDefaultValues = true
     }
-    sourceSets {
-        androidTest {
-            java.srcDirs = ['test/java']
-        }
-    }
+//    sourceSets {
+//        androidTest {
+//            java.srcDirs = ['test/java']
+//        }
+//    }
 }
 
 repositories {
@@ -53,6 +53,6 @@ dependencies {
     }
     //    apply plugin: 'org.robolectric'
 //    androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.3.1'
-    compile 'com.jayway.android.robotium:robotium-solo:5.2.1'
+    androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.3.1'
 
 }

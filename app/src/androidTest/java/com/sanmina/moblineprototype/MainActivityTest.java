@@ -4,8 +4,6 @@ import android.test.ActivityInstrumentationTestCase2;
 
 import com.robotium.solo.Solo;
 
-
-
 public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActivity> {
 
     private Solo solo;
